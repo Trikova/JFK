@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar</title>
+  <link rel="stylesheet" href="auth.css">
+  <script src="auth.js"></script>
+</head>
+<body onload="selection()">
+  <div class="div-selection">
+    <h2>Nome completo:</h2>
+    <input class="typetxt" type="text" placeholder="Seu nome completo">
+    <h2>E-mail</h2>
+    <input class="typetxt" type="email" placeholder="Seu e-mail">
+    <h2>Data de nascimento:</h2>
+    <input class="typetxt" type="date">
+    <h2>Estado:</h2>
+    <input class="typetxt" type="text" placeholder="Seu estado">
+    <h2>Endereço:</h2>
+    <input class="typetxt" type="text" placeholder="Seu endereço completo">
+    <h2>Sexo:</h2>
+    <input class="typeradius" type="radio" id="masculino" name="sexo" value="masculino">
+    <label for="masculino">Masculino</label>
+    <input class="typeradius" type="radio" id="feminino" name="sexo" value="feminino">
+    <label for="feminino">Feminino</label>
+    <h2>Categorias de interesse (múltipla seleção):</h2>
+    <input class="typeselect" type="checkbox" id="praia">
+    <label class="typeselect" for="praia">Praia</label>
+    <input class="typeselect" type="checkbox" id="campo" >
+    <label for="campo">Campo</label>
+    <input class="typeselect" type="checkbox" id="nacionais" >
+    <label for="nacionais">Nascionais</label>
+    <input class="typeselect" type="checkbox" id="internacionais" >
+    <label for="internacionais">Internacionais</label>
+    <input class="typeselect" type="checkbox" id="serra" >
+    <label for="serra">Serra</label>
+    <input class="typeselect" type="checkbox" id="cidade" >
+    <label for="cidade">Cidade</label>
+    <h2>Usuário:</h2>
+    <input class="typetxt" type="text" placeholder="Usuário / E-mail">
+    <h2>Senha:</h2>
+    <input class="typetxt" type="password" placeholder="Sua senha">
+    <h1></h1>
+
+    <button class="btn-auth">Cadastrar</button>
+    <button class="btn-back" id="btn-back-login">Votlar</button>
+  </div>
+</body>
+</html>

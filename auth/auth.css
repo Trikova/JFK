@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+ background-image: url('bg-vector.jpg');
+  font-family: "Roboto Mono", monospace;
+  font-size: 10px;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.div-selection{
+  width: 20%;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(106, 23, 23);
+  text-align: center;
+}
+
+.btn-auth{
+  background-color: rgb(106, 23, 23);
+  color: whitesmoke;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn-back{
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+
+  background-color: whitesmoke;
+  color: black;
+  border-style: solid;
+  
+}
+
+.btn-auth:hover {
+
+  background-color: whitesmoke;
+  color: black;
+  border-style: solid;
+  
+}
+
+.typetxt{
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 13em;
+  border-radius: 1rem;
+  color: rgb(106, 23, 23);
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+.typetxt:focus{
+  outline-color: rgb(106, 23, 23);
+}
+
+.typeradius{
+  accent-color: rgb(106, 23, 23);
+}
+.typeselect{
+  accent-color: rgb(106, 23, 23);
+}
+
+label{
+  font-size: 15px;
+}
