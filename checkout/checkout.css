@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: blanchedalmond;
+  font-family: "Roboto Mono", monospace;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#divprincipal{
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  text-align: center;
+}
+#divinfo{
+
+  width: 40%;
+  height: auto;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(106, 23, 23);
+  text-align: center;
+}
+.btnpayment{
+  background-color: rgb(106, 23, 23);
+  color: whitesmoke;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border-style: solid;
+  margin: 10px;
+  font: bold;
+  border-color: rgb(106, 23, 23);
+}
+
+.btnpayment:hover {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+
+
+}
+
+.btn-back{
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn-back:hover {
+
+  background-color: whitesmoke;
+  color: black;
+  border-style: solid;
+  
+}
+
+.cidadeh1{
+
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  font-style: normal;
+}
+
+.valorh2{
+  font-family: "Bebas Neue", sans-serif;
+  padding: 50px;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.divpayment{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 20%;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(106, 23, 23);
+  text-align: center;
+}
+.divpayment img{
+  width: 100px;
+}
+.typetxt{
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 13em;
+  border-radius: 1rem;
+  color: rgb(106, 23, 23);
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+.typetxt:focus{
+  outline-color: rgb(106, 23, 23);
+}
+
+.typeradius{
+  accent-color: rgb(106, 23, 23);
+}
+
+.thanks{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 150px;
+  font-style: normal;
+}

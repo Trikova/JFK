@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagamento</title>
+  <link rel="stylesheet" href="checkout.css">
+  <script src="checkout.js"></script>
+</head>
+<body onload="checkout()">
+  <div class="divpayment">
+    <img src="https://akibra.com.br/wp-content/uploads/2022/02/vector-credit-card-icon.png" alt="">
+    <h2>Número do Cartão:</h2>
+    <input class="typetxt" type="text" placeholder="Número do seu Cartão">
+    <h2>Nome do titular</h2>
+    <input class="typetxt" type="email" placeholder="Nome igual ao do cartão">
+    <h2>Data de vencimento:</h2>
+    <input class="typetxt" type="date">
+    <h2>Código de Segurança:</h2>
+    <input class="typetxt" type="text" placeholder="CVV">
+    <h2>Parcelamento:</h2>
+    <input class="typeradius" type="radio" id="1x" name="parcelamento" value="1x">
+    <label for="1x">1X - R$ 1.000,00</label>
+    <input class="typeradius" type="radio" id="10x" name="parcelamento" value="10x">
+    <label for="10x">10X - R$ 100,00</label>
+    <h1></h1>
+
+    <button class="btnpayment" id="btnpagar">Pagar</button>
+    <button class="btn-back" id="btnback">Votlar</button>
+  </div>
+</body>
